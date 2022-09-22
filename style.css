@@ -1,9 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 section {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('img/empty-wooden-table-in-front-2022-09-16-01-55-31-utc.jpg');
+    background-position: center;
+    background-size:cover;
+   
 }
 
 .body {
@@ -26,9 +34,11 @@ section {
 
 
 .screen {
+    background-image: url('img/Blue.jpeg');
+    background-position: center;
+    background-size: cover;
     width: 98%;
     height: 99%;
-    background: rgb(34, 34, 34);
     border-radius: 2em;
     display:flex;
     justify-content: space-between;
@@ -63,7 +73,6 @@ section {
 .apps {
     width: 100%;
     height: 80%;
-    background: aliceblue;
     display: flex;
     justify-content: flex-start;
     align-items: center;
